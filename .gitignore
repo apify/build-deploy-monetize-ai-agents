@@ -1,0 +1,13 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Apify
+storage/
+
+# Secrets
+.env
+
+# IDE
+.idea/

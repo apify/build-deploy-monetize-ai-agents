@@ -65,8 +65,6 @@ What we cover, in order. Each lesson builds on the last.
 Install your tools and create, run, and inspect your first Actor locally - no Apify
 account needed yet.
 
----
-
 ### 1. Install Node.js and Python
 
 Make sure you have the runtimes the workshop needs:
@@ -178,8 +176,6 @@ Continue to [Lesson 2: Build and deploy](#lesson-2-build-and-deploy).
 
 Deploy your Actor to the Apify platform and run it in Apify Console.
 
----
-
 ### 1. Get your API token
 
 In Apify Console, open **Settings > API & Integrations** and copy your personal API token. See
@@ -256,8 +252,6 @@ Continue to [Lesson 3: Monetize](#lesson-3-monetize).
 Learn the monetization flow and configure pricing. We publish for real
 in lesson 4, once the Actor actually does something.
 
----
-
 ### 1. Add your billing details
 
 Before you can monetize, add your billing and payout details in Apify Console under
@@ -318,8 +312,6 @@ Continue to [Lesson 4: Build an AI agent](#lesson-4-build-an-ai-agent).
 
 Turn your Actor into a real AI agent: a reasoning loop that calls tools and writes
 its results to a dataset.
-
----
 
 ### 1. Understand the pattern
 
@@ -428,8 +420,6 @@ Continue to [Lesson 5: Use Apify in your hackathon project](#lesson-5-use-apify-
 
 See how Apify speeds up your hackathon project - both as an AI agent you build from
 this repo and as thousands of ready-made Actors you can plug straight in.
-
----
 
 ### Build your own AI agent from this repo
 

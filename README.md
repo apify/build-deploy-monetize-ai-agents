@@ -34,20 +34,11 @@ shape is all you need to build, deploy, monetize, and eventually run a full AI a
 
 What we cover, in order. Each lesson builds on the last.
 
-1. [Lesson 1: Setup and your first Actor](#lesson-1-setup-and-your-first-actor) (~5 min) -
-   install your tools and create, run, and inspect your first Actor locally.
-2. [Lesson 2: Build and deploy](#lesson-2-build-and-deploy) (~10 min) - deploy the Actor to the
-   Apify platform and run it in Apify Console.
-3. [Lesson 3: Monetize](#lesson-3-monetize) (~10 min) - publish the Actor and set up pricing so
-   it can earn money.
-4. [Lesson 4: Build an AI agent](#lesson-4-build-an-ai-agent) (~10 min) - the payoff: turn the
-   Actor into an AI agent that reasons in a loop and calls Actors as tools.
+1. [Lesson 1: Setup and your first Actor](#lesson-1-setup-and-your-first-actor)
+2. [Lesson 2: Build and deploy](#lesson-2-build-and-deploy)
+3. [Lesson 3: Monetize](#lesson-3-monetize)
+4. [Lesson 4: Build an AI agent](#lesson-4-build-an-ai-agent)
 5. [Lesson 5: Use Apify in your hackathon project](#lesson-5-use-apify-in-your-hackathon-project)
-   (~5 min) - build your own agent from this repo and plug in ready-made Actors, with hackathon
-   credits.
-
-Reference material: [Prerequisites](#prerequisites),
-[Example agent use cases](#example-agent-use-cases), and [Resources](#resources).
 
 ## Prerequisites
 
@@ -67,31 +58,12 @@ Reference material: [Prerequisites](#prerequisites),
 > workshop. If the event provides a promo code for extra credits, redeem it under **Billing**
 > in Apify Console before lesson 3.
 
-## Example agent use cases
-
-There is no prebuilt example committed to this repo. We pick one of these ideas (or a similar
-one) and build it live during the workshop, then you adapt it to your own in lesson 5. These
-are here to set the shape:
-
-- **Hackathon idea ranker** - give it your team's skills and interests, it scrapes a source
-  through an Apify Actor, then loops with [LangGraph](https://langchain-ai.github.io/langgraph/)
-  to score and rank project ideas.
-- **Actor recommender** - give it a project description, it uses the
-  [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/) plus the
-  [Apify Store API](https://docs.apify.com/api/v2) to recommend the
-  [Apify Store](https://apify.com/store) Actors that would help you build it.
-
-Any agent that "thinks in a loop and calls tools to get real data" fits the pattern you will
-learn. Keep your idea in mind as you go.
-
 ---
 
 ## Lesson 1: Setup and your first Actor
 
-**Goal:** Install your tools and create, run, and inspect your first Actor locally - no Apify
+Install your tools and create, run, and inspect your first Actor locally - no Apify
 account needed yet.
-
-**Time:** ~5 minutes
 
 ---
 
@@ -204,9 +176,7 @@ Continue to [Lesson 2: Build and deploy](#lesson-2-build-and-deploy).
 
 ## Lesson 2: Build and deploy
 
-**Goal:** Deploy your Actor to the Apify platform and run it in Apify Console.
-
-**Time:** ~10 minutes
+Deploy your Actor to the Apify platform and run it in Apify Console.
 
 ---
 
@@ -283,10 +253,8 @@ Continue to [Lesson 3: Monetize](#lesson-3-monetize).
 
 ## Lesson 3: Monetize
 
-**Goal:** Learn the monetization flow and configure pricing. We publish for real
+Learn the monetization flow and configure pricing. We publish for real
 in lesson 4, once the Actor actually does something.
-
-**Time:** ~10 minutes
 
 ---
 
@@ -348,10 +316,8 @@ Continue to [Lesson 4: Build an AI agent](#lesson-4-build-an-ai-agent).
 
 ## Lesson 4: Build an AI agent
 
-**Goal:** Turn your Actor into a real AI agent: a reasoning loop that calls tools and writes
+Turn your Actor into a real AI agent: a reasoning loop that calls tools and writes
 its results to a dataset.
-
-**Time:** ~10 minutes
 
 ---
 
@@ -460,10 +426,8 @@ Continue to [Lesson 5: Use Apify in your hackathon project](#lesson-5-use-apify-
 
 ## Lesson 5: Use Apify in your hackathon project
 
-**Goal:** See how Apify speeds up your hackathon project - both as an AI agent you build from
+See how Apify speeds up your hackathon project - both as an AI agent you build from
 this repo and as thousands of ready-made Actors you can plug straight in.
-
-**Time:** ~5 minutes
 
 ---
 

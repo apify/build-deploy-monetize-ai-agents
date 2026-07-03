@@ -3,11 +3,10 @@
 Build a real AI agent, ship it to the Apify platform, and turn it into something people (and
 other agents) can pay to use - all from this one forked repo.
 
-## Who this is for and how it works
+## How it works
 
-You are a developer who is comfortable with code but new to Apify. In about 50 minutes you will
-build an AI agent and take it through the full Apify Actor lifecycle: build, deploy, and
-monetize.
+In about 50 minutes you will build an AI agent and take it through the full Apify Actor
+lifecycle: build, deploy, and monetize.
 
 This is a **live, build-along workshop**. We pick one example use case and build it together,
 end to end, while explaining each step:
@@ -55,9 +54,10 @@ What we cover, in order. Each step builds on the last.
   `OPENAI_API_KEY` in your environment.
 
 > **Note:** The Apify free tier includes monthly usage credits, which is plenty for this
-> workshop. This event also includes a coupon for extra credits for your own project (see
-> [step 5](#step-5-use-apify-in-your-hackathon-project)) - redeem it under **Billing** in
-> Apify Console early so the credits are ready when you need them.
+> workshop. This event also includes a coupon (`AABW2026`) for extra credits for your own
+> project - redeem it under [**Settings > Billing**](https://console.apify.com/billing) in
+> Apify Console early so the credits are ready when you need them (details in
+> [step 5](#step-5-use-apify-in-your-hackathon-project)).
 
 ---
 
@@ -357,10 +357,9 @@ full checklist.
 
 ### 3. Choose a pricing model
 
-The Apify platform supports three models:
+The Apify platform supports a few pricing models. For an AI agent, focus on:
 
 - **Pay per usage** - users pay only for the platform resources their run consumes.
-- **Rental** - users pay a flat recurring fee to use your Actor.
 - **Pay per event (PPE)** - users pay for specific events you define, such as each result
   produced. This is the most flexible model for agents.
 
@@ -376,8 +375,8 @@ In the **Publication** tab, open **Monetization** and follow the wizard (full wa
 
 > **Note:** Pay-per-event Actors with limited permissions automatically become eligible for
 > autonomous agent payment over protocols like x402 and Skyfire. There is no separate opt-in,
-> so an AI agent can discover and pay for your Actor on its own. Rental and pay-per-usage
-> Actors are not eligible.
+> so an AI agent can discover and pay for your Actor on its own. Pay-per-usage Actors are not
+> eligible.
 
 ### 5. Track your earnings
 
@@ -429,11 +428,12 @@ Browse [Apify Store](https://apify.com/store), find an Actor for your domain, an
 ### Your hackathon Apify credits
 
 We are giving away Apify credits for this hackathon. Redeem the coupon code below under
-**Settings > Billing** in Apify Console to top up your account, then use it for your hackathon
-project - running Actors, deploying your agent, and calling Store Actors.
+[**Settings > Billing**](https://console.apify.com/billing) in Apify Console to top up your
+account, then use it for your hackathon project - running Actors, deploying your agent, and
+calling Store Actors.
 
 ```
-Coupon code: <ADD-HACKATHON-CODE>
+Coupon code: AABW2026
 ```
 
 > **Note:** Redeem the coupon early so the credits are ready when you need them. Apify credits

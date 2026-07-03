@@ -1,7 +1,7 @@
 # Guidance for AI coding tools
 
 This repo is a forkable starter for a hands-on Apify Actor workshop. The full workshop lives in
-[`README.md`](./README.md): intro, prerequisites, example use cases, five lessons, and a
+[`README.md`](./README.md): intro, prerequisites, example use cases, five steps, and a
 resources list. `README.md` is both the workshop structure and your reference for building
 agents here.
 
@@ -44,7 +44,7 @@ npx skills add https://github.com/apify/agent-skills --skill apify-actor-develop
 - Keep secrets in env vars or [`apify secrets`](https://docs.apify.com/platform/actors/development/programming-interface/environment-variables),
   never in the repo.
 
-## Building an AI agent (lesson 4, the payoff)
+## Building an AI agent (step 2, the payoff)
 
 The pattern: **the agent loop runs inside the Actor, Apify Actors are the tools it calls, and
 the dataset is the output.**

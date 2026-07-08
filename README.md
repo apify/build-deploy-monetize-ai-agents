@@ -41,7 +41,7 @@ What we cover, in order. Each step builds on the last.
 
 ## Prerequisites
 
-- An **[Apify account](https://console.apify.com/sign-up)** and an **API token** (you create
+- An **[Apify account](https://console.apify.com/sign-up?couponId=AABW2026&utm_source=aabw&utm_medium=referral&utm_campaign=events-2026-aabw)** and an **API token** (you create
   the [token](https://docs.apify.com/platform/integrations/api) in Apify Console). You can sign
   up for free and most of the workshop runs on the free tier.
 - **[Node.js 22+](https://nodejs.org/)** - the [Apify CLI](https://docs.apify.com/cli/) runs on

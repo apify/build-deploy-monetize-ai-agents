@@ -125,10 +125,11 @@ From the root of this repo, scaffold a basic Python Actor:
 apify create
 ```
 
-When prompted, choose **Python** and the **Getting started with Python** template. The CLI
+When prompted, choose **Python** or **JavaScript**  and the **LangGraph AI agent** template. The CLI
 creates your Actor's files in place. Browse every starter at
 [Apify Actor templates](https://apify.com/templates), and read the
-[Python SDK docs](https://docs.apify.com/sdk/python) for how Actor code is structured.
+[Python SDK docs](https://docs.apify.com/sdk/python) or [JavaScript SDK docs](https://docs.apify.com/sdk/js) for how Actor code is structured.
+[JavaScript SDK docs](https://docs.apify.com/sdk/js) for how Actor code is structured.
 
 ### 6. Tour the structure
 
@@ -254,6 +255,7 @@ deploy anything.
 - [Claude models](https://docs.claude.com/en/docs/about-claude/models) and
   [OpenAI models](https://platform.openai.com/docs/models)
 - [Apify client for Python](https://docs.apify.com/api/client/python/) (call Actors as tools)
+- [Apify client for JavaScript](https://docs.apify.com/api/client/js/) (call Actors as tools)
 - [Apify Store](https://apify.com/store) (find Actors to use as tools) and the
   [Store API](https://docs.apify.com/api/v2)
 - [apify-actor-development SKILL.md](https://github.com/apify/agent-skills/blob/main/skills/apify-actor-development/SKILL.md)

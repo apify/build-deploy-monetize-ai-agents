@@ -5,7 +5,7 @@ other agents) can pay to use - all from this one forked repo.
 
 ## How it works
 
-In about 50 minutes you will build an AI agent and take it through the full Apify Actor
+In about 40 minutes you will build an AI agent and take it through the full Apify Actor
 lifecycle: build, deploy, and monetize.
 
 This is a **live, build-along workshop**. We pick one example use case and build it together,
@@ -37,7 +37,7 @@ What we cover, in order. Each step builds on the last.
 2. [Step 2: Build your agent](#step-2-build-your-agent) (~20 min)
 3. [Step 3: Deploy](#step-3-deploy) (~10 min)
 4. [Step 4: Monetize and publish](#step-4-monetize-and-publish) (~10 min)
-5. [Step 5: Use Apify in your hackathon project](#step-5-use-apify-in-your-hackathon-project)
+5. [Step 5: Use Apify in your hackathon project](#step-5-use-apify-in-your-hackathon-project) (~5 min)
 
 ## Prerequisites
 

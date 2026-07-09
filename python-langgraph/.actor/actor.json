@@ -1,0 +1,20 @@
+{
+	"$schema": "https://apify.com/schemas/v1/actor.ide.json",
+	"actorSpecification": 1,
+	"name": "python-langgraph",
+	"title": "Python LangGraph Agent",
+	"description": "LangGraph agent in python",
+	"version": "0.0",
+	"buildTag": "latest",
+	"input": "./input_schema.json",
+	"storages": {
+		"dataset": "./dataset_schema.json",
+		"keyValueStore": "./key_value_store_schema.json"
+	},
+	"output": "./output_schema.json",
+	"meta": {
+		"templateId": "python-langgraph",
+		"generatedBy": "<FILL-IN-MODEL>"
+	},
+	"dockerfile": "../Dockerfile"
+}

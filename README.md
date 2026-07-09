@@ -1,4 +1,4 @@
-# Build, deploy and monetize AI agents
+# Build, deploy, and monetize AI agents
 
 Build a real AI agent, ship it to the Apify platform, and turn it into something people (and
 other agents) can pay to use - all from this one forked repo.
@@ -41,7 +41,7 @@ What we cover, in order. Each step builds on the last.
 
 ## Prerequisites
 
-- An **[Apify account](https://console.apify.com/sign-up)** and an **API token** (you create
+- An **[Apify account](https://console.apify.com/sign-up?couponId=AABW2026&utm_source=aabw&utm_medium=referral&utm_campaign=events-2026-aabw)** and an **API token** (you create
   the [token](https://docs.apify.com/platform/integrations/api) in Apify Console). You can sign
   up for free and most of the workshop runs on the free tier.
 - **[Node.js 22+](https://nodejs.org/)** - the [Apify CLI](https://docs.apify.com/cli/) runs on
@@ -215,8 +215,8 @@ finish in this step: one clear input, one tool Actor, one useful output.
 
 ### 3. Vibe-code it with your AI tool
 
-You installed the `apify-actor-development` skill in step 1, so let your AI coding tool do the
-heavy lifting. Describe the agent and let it scaffold and implement the code in this repo. For
+You installed the `apify-actor-development` skill in step 1, so let your AI coding tool build it
+for you. Describe the agent and let it scaffold and implement the code in this repo. For
 example:
 
 ```
@@ -265,7 +265,7 @@ Continue to [Step 3: Deploy](#step-3-deploy).
 ## Step 3: Deploy
 
 Your agent works locally. Now deploy it to the Apify platform so it runs in the cloud and can
-be started by anyone - or any agent - over the API.
+be started by anyone, or any agent, over the API.
 
 **Time:** ~10 minutes
 
@@ -353,7 +353,7 @@ Continue to [Step 4: Monetize and publish](#step-4-monetize-and-publish).
 ## Step 4: Monetize and publish
 
 Your agent runs on the platform. Now publish it to Apify Store and put a price on it, so other
-people - and other agents - can discover, run, and pay for it.
+people, and other agents, can discover, run, and pay for it.
 
 **Time:** ~10 minutes
 
@@ -418,9 +418,9 @@ this repo and as thousands of ready-made Actors you can plug straight in.
 ### Build your own AI agent from this repo
 
 You now have the full lifecycle working. Fork this repo and use it as the starting point for your
-own agent: the pattern stays fixed (loop, tools, dataset), and you change only three parts -
+own agent: the pattern stays fixed (loop, tools, dataset), and you change only three parts:
 the input, the tool Actor it calls, and the output it writes. Let your AI coding tool plus the
-`apify-actor-development` skill do the heavy lifting, and keep the LLM API key as a secret input
+`apify-actor-development` skill scaffold and write it, and keep the LLM API key as a secret input
 so it works locally and once deployed. When it works, deploy and publish it just like in steps
 2 to 4.
 
@@ -470,7 +470,7 @@ Coupon code: AABW2026
 - Full link list in [Resources](#resources) below
 
 That is the full lifecycle, plus everything Apify gives you for your hackathon. Now go build. Back
-to the top: [Build, deploy and monetize AI agents](#build-deploy-and-monetize-ai-agents).
+to the top: [Build, deploy, and monetize AI agents](#build-deploy-and-monetize-ai-agents).
 
 ---
 
@@ -532,4 +532,4 @@ Everything linked across the steps, grouped for quick reference.
   [Claude Code](https://docs.claude.com/en/docs/claude-code)
 - [OpenAI models](https://platform.openai.com/docs/models)
 
-Back to the top: [Build, deploy and monetize AI agents](#build-deploy-and-monetize-ai-agents).
+Back to the top: [Build, deploy, and monetize AI agents](#build-deploy-and-monetize-ai-agents).

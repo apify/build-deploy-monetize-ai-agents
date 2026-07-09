@@ -203,6 +203,11 @@ Either way, point it at the latest [Claude](https://docs.claude.com/en/docs/abou
 or [OpenAI](https://platform.openai.com/docs/models) model and check the provider docs for the
 current model id.
 
+> **Tip:** You don't have to wire each tool by hand. Point your agent at the
+> [Apify MCP server](https://docs.apify.com/platform/integrations/mcp) (`https://mcp.apify.com`)
+> and it can discover and call thousands of Apify Store Actors as
+> [MCP](https://modelcontextprotocol.io/) tools, with no per-tool glue code.
+
 ### 2. Pick your agent
 
 Pick the example we build together in this workshop, or bring your own. Keep it small enough to
@@ -322,8 +327,17 @@ This is how your agent gets called in production. See
 [Run Actor and retrieve data via API](https://docs.apify.com/academy/api/run-actor-and-retrieve-data-via-api)
 and the [Apify API reference](https://docs.apify.com/api/v2).
 
+### 7. Or start it over MCP
+
+Your Actor is also reachable through the Apify MCP server, so any MCP client - Claude, Cursor,
+or another agent - can discover and run it as a tool. Point the client at
+`https://mcp.apify.com` (OAuth on first use). Combined with pay per event, this is how an
+autonomous agent finds and pays for your Actor. See
+[Apify MCP server](https://docs.apify.com/platform/integrations/mcp).
+
 **Resources**
 
+- [Apify MCP server](https://docs.apify.com/platform/integrations/mcp) (`https://mcp.apify.com`)
 - [API integration](https://docs.apify.com/platform/integrations/api) and the
   [Apify API reference](https://docs.apify.com/api/v2)
 - [Running Actors](https://docs.apify.com/platform/actors/running) and
@@ -414,10 +428,15 @@ so it works locally and once deployed. When it works, deploy and publish it just
 
 You do not have to build everything yourself. [Apify Store](https://apify.com/store) has
 thousands of ready-made Actors - scrapers, data extractors, integrations, and AI tools - that
-you can use in your project in two ways:
+you can use in your project in three ways:
 
-- **As tools your agent calls** - point your agent at a Store Actor to fetch real data or take
-  an action, exactly like the workshop agent did.
+- **As MCP tools, with zero glue code** - point your AI coding tool or agent at the
+  [Apify MCP server](https://docs.apify.com/platform/integrations/mcp) (`https://mcp.apify.com`)
+  and every Store Actor becomes a tool it can discover and call. The fastest way to give an agent
+  real capabilities during a hackathon.
+- **As tools your agent calls directly** - wire a Store Actor into your agent with the
+  [Apify client for Python](https://docs.apify.com/api/client/python/), exactly like the workshop
+  agent did.
 - **As building blocks in any project** - call a Store Actor over the
   [API](https://docs.apify.com/api/v2) from any stack to get data or automation without writing
   the scraper or integration yourself. Even if your hackathon project is not an AI agent, this is
@@ -488,8 +507,10 @@ Everything linked across the steps, grouped for quick reference.
   [datasets](https://docs.apify.com/platform/storage/dataset)
 - [Environment variables and secrets](https://docs.apify.com/platform/actors/development/programming-interface/environment-variables)
 
-### Running over the API
+### Running over the API and MCP
 
+- [Apify MCP server](https://docs.apify.com/platform/integrations/mcp) (`https://mcp.apify.com`) -
+  use Store Actors as tools, and expose your own Actor to MCP clients
 - [API integration](https://docs.apify.com/platform/integrations/api)
 - [Run Actor and retrieve data via API](https://docs.apify.com/academy/api/run-actor-and-retrieve-data-via-api)
 - [Apify API reference](https://docs.apify.com/api/v2)
